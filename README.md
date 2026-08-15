@@ -163,6 +163,10 @@ pip install .[notebook]
 jupyter notebook notebooks/calibracion_hiperparametros.ipynb
 ```
 
+El notebook también está exportado a `notebooks/calibracion_hiperparametros.html`, que se puede
+abrir sin Jupyter y **conserva el diagrama interactivo** (GitHub no lo renderiza dentro del
+`.ipynb`). Desde ahí se puede imprimir a PDF con el navegador.
+
 ---
 
 ## Resultados
@@ -261,7 +265,8 @@ pipeline empaquetado es reproducible y no depende del entorno de quien lo ejecut
 ├── pipeline_diagram.html                 # diagrama exportado
 ├── modelo_final_diagram.html
 ├── notebooks/
-│   └── calibracion_hiperparametros.ipynb # DIAGRAMA + Modeling + Evaluation
+│   ├── calibracion_hiperparametros.ipynb # DIAGRAMA + Modeling + Evaluation
+│   └── calibracion_hiperparametros.html  # mismo notebook, sin necesidad de Jupyter
 ├── docs/screenshots/                      # evidencia de ejecución
 ├── tests/
 │   └── test_pipeline.py

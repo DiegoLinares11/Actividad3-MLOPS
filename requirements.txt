@@ -1,0 +1,8 @@
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+# Para el notebook (diagrama del pipeline y graficas de evaluacion):
+jupyter
+notebook
+matplotlib
